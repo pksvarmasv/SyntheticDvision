@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Synthetic Division</title>
+<style>
+
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  width: 20%;
+  height: 20%;
+  }
+  
+th, td {
+  background-color: blue; 
+  color: white;
+  width: 10px;
+  height: 25px;
+}
+footer {
+	position:fixed;
+	bottom:0;
+	width:100%;
+	display:block;	
+	text-align: center;
+	}
+ 
+</style>
+</head>
+
+<body>
+
+<h1>Synthetic Division</h1>
+
+<! -- form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post"  >
+  <form name="myForm" onsubmit="return myFunction()" method="post">Numerator: <br>
+  <input type="text" name="numerator">
+  <br>
+  Denominator: <br>
+  <input type="text" name="denominator">
+  <br><br>  
+</form>  
+
+<button id= "btnSolve" type="button" onclick="solve()">Solve</button>
+<button id= "btnNextStep" type="button" onclick="nextStep()">Next</button>
+<button id="btnExercise" type="button" onclick="exercise()">Exercise</button>
+<button id="btnVerify" type="button" disabled onclick="verify()">Verify</button>
+
+<br> <br>
+
+<footer>
+	<p>Copyright &copy; 2022 JANBAV. All rights reserved.<br>
+	Email: contact@janbav.org</p>
+</footer>
+
+<script src="SyntheticDiv.js">
+
+
+</script>
+
+</body>
+</html>
